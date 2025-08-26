@@ -1,7 +1,7 @@
-using System; 
+using System;
 using Cysharp.Threading.Tasks;
 
-namespace MornLib
+namespace MornTween
 {
     public interface IMornTween : IDisposable
     {

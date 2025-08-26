@@ -1,7 +1,6 @@
-using MornLib._Morn.MornTween;
 using UnityEngine;
 
-namespace MornArbor.Tween
+namespace MornTween
 {
     internal sealed class MornTweenMove : MornTweenBaseImpl<Vector3>
     {

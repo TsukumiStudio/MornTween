@@ -3,7 +3,7 @@ using System.Threading;
 using MornEase;
 using UnityEngine;
 
-namespace MornLib
+namespace MornTween
 {
     public static class MornTweenUtil
     {

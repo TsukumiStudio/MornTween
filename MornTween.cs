@@ -4,7 +4,7 @@ using Cysharp.Threading.Tasks;
 using MornEase;
 using UnityEngine;
 
-namespace MornLib
+namespace MornTween
 {
     internal sealed class MornTween<T> : IMornTween
     {

@@ -1,8 +1,7 @@
-using MornLib._Morn.MornTween;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace MornArbor.Tween
+namespace MornTween
 {
     internal sealed class MornTweenFade : MornTweenBaseImpl<float>
     {

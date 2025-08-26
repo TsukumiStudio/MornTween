@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace MornLib._Morn.MornTween
+namespace MornTween
 {
     public abstract class MornTweenBase : MonoBehaviour
     {

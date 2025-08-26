@@ -3,7 +3,7 @@ using MornEase;
 using MornEditor;
 using UnityEngine;
 
-namespace MornLib._Morn.MornTween
+namespace MornTween
 {
     internal abstract class MornTweenBaseImpl<TValue> : MornTweenBase
     {
