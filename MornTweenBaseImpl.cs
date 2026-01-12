@@ -1,6 +1,5 @@
 using System;
-using MornEase;
-using MornEditor;
+using MornLib;
 using UnityEngine;
 
 namespace MornTween
@@ -57,7 +56,7 @@ namespace MornTween
             {
                 _cachedEndValue = GetRelativeValue(_endValue);
             }
-            
+
             SetValue(_cachedStartValue);
         }
 
