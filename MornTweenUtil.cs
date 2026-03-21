@@ -2,6 +2,7 @@ using System;
 using System.Threading;
 using MornLib;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MornTween
 {
@@ -42,6 +43,23 @@ namespace MornTween
                     spriteRenderer.color.r,
                     spriteRenderer.color.g,
                     spriteRenderer.color.b,
+                    v),
+                Mathf.Lerp,
+                value,
+                duration,
+                easeType,
+                ct);
+        }
+
+        public static IMornTween DOFade(this Graphic graphic, float value, float duration,
+            MornEaseType easeType = MornEaseType.EaseOutQuad, CancellationToken ct = default)
+        {
+            return To(
+                () => graphic.color.a,
+                v => graphic.color = new Color(
+                    graphic.color.r,
+                    graphic.color.g,
+                    graphic.color.b,
                     v),
                 Mathf.Lerp,
                 value,
