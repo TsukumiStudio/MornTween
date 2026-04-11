@@ -1,6 +1,6 @@
 using System;
 using System.Threading;
-using MornEase;
+using MornLib;
 using UnityEngine;
 
 namespace MornTween

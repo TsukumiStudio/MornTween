@@ -1,5 +1,5 @@
 using System;
-using MornEase;
+using MornLib;
 using MornEditor;
 using UnityEngine;
 
